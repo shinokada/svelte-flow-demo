@@ -1,6 +1,1 @@
-<script>
-  import HeroIcons from "@codewithshin/svelte-flow";
-  let size;
-</script>
-
-<HeroIcons />
+<h1>Hi</h1>
