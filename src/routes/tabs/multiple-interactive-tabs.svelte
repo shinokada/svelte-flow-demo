@@ -1,5 +1,5 @@
 <script>
-  import { InteractiveTabs } from "$lib/index";
+  import { InteractiveTabs } from "@codewithshin/svelte-flow";
 
   let tabs1 = [
     {
