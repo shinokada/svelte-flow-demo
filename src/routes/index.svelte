@@ -1,2 +1,34 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import { List } from "$lib/index";
+
+  let lists = [
+    {
+      title: "Home",
+      link: "/",
+    },
+    {
+      title: "Alerts",
+      link: "/alert",
+    },
+    {
+      title: "Cards",
+      link: "/cards",
+    },
+    {
+      title: "List Group",
+      link: "/list-group/list",
+    },
+    {
+      title: "Modals",
+      link: "/modals",
+    },
+    {
+      title: "Tabs",
+      link: "/tabs",
+    },
+  ];
+</script>
+
+<div class="container mx-auto p-8">
+  <List {lists} />
+</div>
