@@ -22,8 +22,8 @@
     btnSignInColor={"pink"}
     titleSignIn={"SignIn Modal Title"}
     textSignInColor="pink"
-    lostPasswordLink={"/auth/lost-password"}
-    signUpLink={"/auth/signup"}
-    formLink={"/auth/signin"}
+    lostPasswordLink={"/dummy-pages/lost-password"}
+    signUpLink={"/dummy-pages/signup"}
+    formLink={"/dummy-pages/signin"}
   />
 </div>

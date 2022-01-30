@@ -1,5 +1,7 @@
 <script>
   import { InteractiveTabs } from "@codewithshin/svelte-flow";
+  import { onMount } from "svelte";
+
   let tabs1 = [
     {
       name: "Profile-1",

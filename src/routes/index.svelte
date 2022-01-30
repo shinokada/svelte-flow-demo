@@ -9,6 +9,7 @@
     {
       title: "Alerts",
       link: "/alert",
+      external: true,
     },
     {
       title: "Cards",
@@ -25,6 +26,7 @@
     {
       title: "Tabs",
       link: "/tabs",
+      external: true,
     },
   ];
 </script>

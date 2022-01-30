@@ -89,9 +89,9 @@
   let btnSignInName = "Sign In Modal";
   let btnSignInColor = "purple";
   let titleSignIn = "Sign in to our platform";
-  let lostPasswordLink = "/auth/lost-password";
-  let signUpLink = "/auth/signup";
-  let formLink = "/auth/login";
+  let lostPasswordLink = "/dummy-pages/lost-password";
+  let signUpLink = "/dummy-pages/signup";
+  let formLink = "/dummy-pages/login";
 </script>
 
 <div class="container mx-auto p-8 space-y-4 md:flex md:space-y-0 md:space-x-4">
