@@ -1,5 +1,5 @@
 <script>
-  import { Button } from "@codewithshin/svelte-flow";
+  import { Card } from "@codewithshin/svelte-flow";
 </script>
 
 <div class="relative bg-white overflow-hidden mt-8">
@@ -27,10 +27,10 @@
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="mt-3 sm:mt-0 sm:ml-3">
               <a
-                href="/"
+                href="/modals"
                 class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
               >
-                Live demo
+                Modal Live demo
               </a>
             </div>
           </div>
@@ -44,5 +44,29 @@
       src="/images/office1.jpeg"
       alt=""
     />
+  </div>
+</div>
+
+<div class="container flex flex-wrap mt-2">
+  <div class="p-4">
+    <Card img="/images/alerts.png" header="ALERTS" link="/alerts" />
+  </div>
+  <div class="p-4">
+    <Card img="/images/buttons.png" header="BUTTONS" link="/buttons" />
+  </div>
+  <div class="p-4">
+    <Card img="/images/cards.png" header="CARDS" link="/cards" />
+  </div>
+  <div class="p-4">
+    <Card img="/images/list-group.png" header="LIST-GROUP" link="/list-group" />
+  </div>
+  <div class="p-4">
+    <Card img="/images/modals.png" header="MODALS" link="/modals" />
+  </div>
+  <div class="p-4">
+    <Card img="/images/navbar.png" header="NAVBAR" link="/navbar" />
+  </div>
+  <div class="p-4">
+    <Card img="/images/tabs.png" header="TABS" link="/tabs" />
   </div>
 </div>

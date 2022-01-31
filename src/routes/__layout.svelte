@@ -1,38 +1,6 @@
 <script>
   import "../app.css";
   import { Navbar } from "@codewithshin/svelte-flow";
-
-  let menus = [
-    {
-      name: "Home",
-      link: "/",
-    },
-    {
-      name: "Buttons",
-      link: "/buttons",
-    },
-    {
-      name: "Cards",
-      link: "/cards",
-    },
-    {
-      name: "List Group",
-      link: "/list-group",
-    },
-    {
-      name: "Modals",
-      link: "/modals",
-    },
-    {
-      name: "Navbar",
-      link: "/navbar",
-    },
-    {
-      name: "Tabs",
-      link: "/tabs",
-    },
-  ];
-  let logoSrc = "/images/mkdir-logo.png";
 </script>
 
 <svelte:head>
@@ -42,8 +10,9 @@
   />
 </svelte:head>
 
-<div class="container mx-auto px-8">
-  <Navbar {menus} />
-
-  <slot />
+<div class="mx-auto p-2">
+  <Navbar textsize="lg" />
+  <div class="mt-4">
+    <slot />
+  </div>
 </div>

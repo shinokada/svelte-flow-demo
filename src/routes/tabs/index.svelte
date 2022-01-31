@@ -1,26 +1,30 @@
 <script>
-  import { List } from "@codewithshin/svelte-flow";
-
-  let lists = [
-    {
-      title: "Default Tabs",
-      link: "/tabs/default-tabs",
-    },
-    {
-      title: "Interactive Tabs",
-      link: "/tabs/interactive-tabs",
-    },
-    {
-      title: "Multiple interactive",
-      link: "/tabs/multiple-interactive-tabs",
-    },
-    {
-      title: "Pill Tabs",
-      link: "/tabs/pilltabs",
-    },
-  ];
+  import { Card } from "@codewithshin/svelte-flow";
 </script>
 
-<div class="container mx-auto p-8">
-  <List {lists} />
+<div class="flex flex-row mt-8">
+  <div class="p-4">
+    <Card
+      img="/images/tabs.png"
+      header="Default Tabs"
+      link="/tabs/default-tabs"
+    />
+  </div>
+  <div class="p-4">
+    <Card
+      img="/images/tabs.png"
+      header="Interactive Tabs"
+      link="/tabs/interactive-tabs"
+    />
+  </div>
+  <div class="p-4">
+    <Card
+      img="/images/tabs.png"
+      header="Multiple Interactive Tabs"
+      link="/tabs/multiple-interactive-tabs"
+    />
+  </div>
+  <div class="p-4">
+    <Card img="/images/tabs.png" header="Pill Tabs" link="/tabs/pilltabs" />
+  </div>
 </div>
