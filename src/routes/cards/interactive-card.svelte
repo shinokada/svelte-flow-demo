@@ -18,6 +18,18 @@
     src: "/images/profile-picture-3.jpeg",
     alt: "Suzan Boil",
   };
+  let img2 = {
+    src: "/images/profile-picture-1.jpeg",
+    alt: "John Doe",
+  };
+  let img3 = {
+    src: "/images/profile-picture-2.jpeg",
+    alt: "Jane Doe",
+  };
+  let img4 = {
+    src: "/images/profile-picture-4.jpeg",
+    alt: "James Smith",
+  };
   let header = "Lorem ipsum";
   let content = "Proin efficitur purus felis.";
   let link1 = { href: "/dummy-pages/profile", title: "Profile" };

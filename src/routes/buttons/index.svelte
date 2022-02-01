@@ -2,9 +2,6 @@
   import { Button } from "@codewithshin/svelte-flow";
 </script>
 
-<Button name="My Button" type="red" rounded="true" />
-<Button name="My Button" type="yellow" rounded="true" />
-
 <div class="container mx-auto p-8 m-4">
   <h1 class="px-8  text-2xl">Size xs</h1>
   <h2 class="px-8 m-4 text-xl">Default</h2>
