@@ -2,7 +2,7 @@
   import { Card } from "@codewithshin/svelte-flow";
 </script>
 
-<div class="flex flex-wrap mx-auto p-8">
+<div class="flex flex-wrap mx-auto p-8 justify-center">
   <div class="flex-auto">
     <Card header="Simple card with header and content">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio
@@ -27,7 +27,7 @@
   >
 </div>
 
-<div class="flex flex-wrap mx-auto p-8">
+<div class="flex flex-wrap mx-auto p-8 justify-center">
   <div class="flex-auto">
     <Card
       img="/images/image-1.jpeg"

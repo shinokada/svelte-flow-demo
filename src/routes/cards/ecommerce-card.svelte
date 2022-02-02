@@ -2,7 +2,7 @@
   import { EcommerceCard } from "@codewithshin/svelte-flow";
 </script>
 
-<div class="flex flex-wrap mx-auto p-8">
+<div class="flex flex-wrap mx-auto p-8 justify-center">
   <div class="flex-auto p-4">
     <EcommerceCard />
   </div>

@@ -36,7 +36,7 @@
   let link2 = { href: "/dummy-pages/about", title: "About" };
 </script>
 
-<div class="flex flex-wrap mx-auto p-8">
+<div class=" mx-auto p-8">
   <div class="flex-auto p-4">
     <InteractiveCard {dropdownLinks} {img} {header} {content} {link1} {link2} />
   </div>
@@ -73,7 +73,7 @@
     />
   </div>
 </div>
-<div class="flex flex-wrap mx-auto p-8">
+<div class="flex flex-wrap mx-auto p-8 justify-center">
   <div class="flex-auto p-4">
     <InteractiveCard {dropdownLinks} {img} {header} {content} {link2} />
   </div>
