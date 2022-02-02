@@ -2,7 +2,7 @@
   import { Card } from "@codewithshin/svelte-flow";
 </script>
 
-<div class="flex flex-wrap mt-8">
+<div class="container flex flex-wrap mt-8 mx-auto">
   <div class="p-4">
     <Card
       img="/images/modals.png"

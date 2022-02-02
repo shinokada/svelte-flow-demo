@@ -4,9 +4,9 @@
   import { Navbar } from "@codewithshin/svelte-flow";
 </script>
 
-<div class="mx-auto p-2">
+<div class="mx-auto px-4">
   <Navbar textsize="lg" />
-  <div class="mt-4">
+  <div class="mt-8">
     <slot />
   </div>
 </div>
