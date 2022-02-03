@@ -1,5 +1,5 @@
 <script>
-  import { SmallModal, ModalButton } from "@codewithshin/svelte-flow";
+  import { SmallModal, ModalButton } from "svelte-flow";
   import { goto } from "$app/navigation";
 
   // common

@@ -1,5 +1,5 @@
 <script>
-  import { Card } from "@codewithshin/svelte-flow";
+  import { Card } from "svelte-flow";
 </script>
 
 <div class="container flex flex-wrap mx-auto mt-8 justify-center">

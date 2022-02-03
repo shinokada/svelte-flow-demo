@@ -1,5 +1,5 @@
 <script>
-  import { List } from "@codewithshin/svelte-flow";
+  import { List } from "svelte-flow";
 
   let lists = [
     {

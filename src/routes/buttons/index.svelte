@@ -1,5 +1,5 @@
 <script>
-  import { Button } from "@codewithshin/svelte-flow";
+  import { Button } from "svelte-flow";
 </script>
 
 <div class="max-w-4xl mx-auto">

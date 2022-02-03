@@ -1,7 +1,7 @@
 <script>
   import "../app.css";
   import "flowbite/dist/flowbite.css";
-  import { Navbar } from "@codewithshin/svelte-flow";
+  import { Navbar } from "svelte-flow";
 </script>
 
 <div class="mx-auto px-4">

@@ -1,5 +1,5 @@
 <script>
-  import { SignInModal, ModalButton } from "@codewithshin/svelte-flow";
+  import { SignInModal, ModalButton } from "svelte-flow";
 
   let signinId = "signin-modal2";
   let btnSignInName = "Sign In Modal";

@@ -1,5 +1,5 @@
 <script>
-  import { MediumModal, ModalButton } from "@codewithshin/svelte-flow";
+  import { MediumModal, ModalButton } from "svelte-flow";
 
   // modal 1
   const id = "basic-modal";

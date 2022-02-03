@@ -1,5 +1,5 @@
 <script>
-  import { LargeModal, ModalButton } from "@codewithshin/svelte-flow";
+  import { LargeModal, ModalButton } from "svelte-flow";
 
   // modal 1
   let id = "large-modal-1";

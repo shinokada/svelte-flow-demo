@@ -1,5 +1,5 @@
 <script>
-  import { EcommerceCard } from "@codewithshin/svelte-flow";
+  import { EcommerceCard } from "svelte-flow";
 </script>
 
 <div class="flex flex-wrap mx-auto p-8 justify-center">

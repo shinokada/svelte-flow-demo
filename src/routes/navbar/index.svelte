@@ -1,5 +1,5 @@
 <script>
-  import { Navbar } from "@codewithshin/svelte-flow";
+  import { Navbar } from "svelte-flow";
 </script>
 
 <div class="container mt-8 mx-auto">

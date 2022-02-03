@@ -1,5 +1,5 @@
 <script>
-  import { Alert, BorderAlert, InfoAlert } from "@codewithshin/svelte-flow";
+  import { Alert, BorderAlert, InfoAlert } from "svelte-flow";
 </script>
 
 <div class="p-8">

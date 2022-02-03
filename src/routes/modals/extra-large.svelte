@@ -1,5 +1,5 @@
 <script>
-  import { ModalButton, ExtraLargeModal } from "@codewithshin/svelte-flow";
+  import { ModalButton, ExtraLargeModal } from "svelte-flow";
 
   // simple modal
   let id = "simple";

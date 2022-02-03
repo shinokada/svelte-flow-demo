@@ -1,5 +1,5 @@
 <script>
-  import { Card } from "@codewithshin/svelte-flow";
+  import { Card } from "svelte-flow";
 </script>
 
 <div class="relative bg-white overflow-hidden mt-8">

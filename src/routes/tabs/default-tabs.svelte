@@ -1,5 +1,5 @@
 <script>
-  import { DefaultTabs } from "@codewithshin/svelte-flow";
+  import { DefaultTabs } from "svelte-flow";
 </script>
 
 <div class="container mx-auto p-8">

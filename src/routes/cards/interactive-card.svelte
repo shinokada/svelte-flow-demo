@@ -1,5 +1,5 @@
 <script>
-  import { InteractiveCard } from "@codewithshin/svelte-flow";
+  import { InteractiveCard } from "svelte-flow";
   let dropdownLinks = [
     {
       href: "/#",

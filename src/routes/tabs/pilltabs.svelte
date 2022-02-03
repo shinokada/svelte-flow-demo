@@ -1,5 +1,5 @@
 <script>
-  import { PillTabs } from "@codewithshin/svelte-flow";
+  import { PillTabs } from "svelte-flow";
 </script>
 
 <div class="container mx-auto p-8">

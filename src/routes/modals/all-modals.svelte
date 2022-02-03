@@ -6,7 +6,7 @@
     ExtraLargeModal,
     SignInModal,
     ModalButton,
-  } from "@codewithshin/svelte-flow";
+  } from "svelte-flow";
 
   // small
   let smallModalId = "small-modal";
