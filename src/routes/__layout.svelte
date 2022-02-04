@@ -4,7 +4,7 @@
   import { Navbar } from "svelte-flow";
 </script>
 
-<div class="mx-auto px-4 pt-8 dark:bg-gray-800">
+<div class="mx-auto px-4 pt-8 ">
   <Navbar textsize="lg" />
   <button
     id="theme-toggle"
